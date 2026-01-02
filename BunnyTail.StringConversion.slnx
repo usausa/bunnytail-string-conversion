@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Analyzers.ruleset" />
+    <File Path="CodeCoverage.runsettings" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+    <File Path="BunnyTail.StringConversion.props" />
+    <File Path="BunnyTail.StringConversion.sln.DotSettings" />
+  </Folder>
+  <Project Path="Develop/Develop.csproj" DefaultStartup="true" />
+  <Project Path="BunnyTail.StringConversion/BunnyTail.StringConversion.csproj">
+    <BuildDependency Project="BunnyTail.StringConversion.Generator/BunnyTail.StringConversion.Generator.csproj" />
+  </Project>
+  <Project Path="BunnyTail.StringConversion.Generator/BunnyTail.StringConversion.Generator.csproj" />
+  <Project Path="BunnyTail.StringConversion.Tests/BunnyTail.StringConversion.Tests.csproj" />
+</Solution>

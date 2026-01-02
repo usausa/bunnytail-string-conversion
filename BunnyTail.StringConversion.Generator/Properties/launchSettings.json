@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BunnyTail.StringConversion.Generator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "..\\Develop\\Develop.csproj"
+    }
+  }
+}
